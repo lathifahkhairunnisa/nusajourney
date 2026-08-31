@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NusaExplore V2 — Explore the Stories of Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <nav>
+    <a href="#" class="logo">Nusa<span>Explore</span></a>
+    <div class="nav">
+      <a href="#regions">Wilayah</a>
+      <a href="#gallery">Culture</a>
+      <a href="#quiz">Quiz</a>
+    </div>
+    <button id="themeBtn" aria-label="Ganti tema">☾</button>
+  </nav>
+
+  <div class="hero-content">
+    <p class="eyebrow">✦ DISCOVER THE ARCHIPELAGO</p>
+    <h1>One country.<br><em>Thousands of stories.</em></h1>
+    <p>Jelajahi warna, rasa, arsitektur, seni, dan cerita dari berbagai penjuru Indonesia.</p>
+    <a href="#regions" class="cta">Mulai perjalanan <span>→</span></a>
+  </div>
+
+  <p class="photo-note">Photo source: Wikimedia Commons · Cultural collage of Indonesia</p>
+</header>
+
+<main>
+<section id="regions" class="section">
+  <div class="heading">
+    <div>
+      <p class="eyebrow">01 — CHOOSE A REGION</p>
+      <h2>Pilih arah perjalananmu.</h2>
+    </div>
+    <p class="sub">Setiap wilayah memiliki visual budaya, rumah tradisional, kuliner, dan kesenian yang berbeda.</p>
+  </div>
+
+  <div class="region-grid" id="regionGrid"></div>
+</section>
+
+<section id="gallery" class="section feature-section">
+  <div class="feature-top">
+    <div>
+      <p class="eyebrow">02 — CULTURE SPOTLIGHT</p>
+      <h2 id="regionName">Sumatra</h2>
+      <p id="regionDesc"></p>
+    </div>
+    <div class="picker" id="picker"></div>
+  </div>
+
+  <div class="culture-grid" id="cultureGrid"></div>
+
+  <div class="fact-card">
+    <div class="fact-icon">✦</div>
+    <div><small>FUN FACT</small><p id="funFact"></p></div>
+  </div>
+</section>
+
+<section class="section visual-story">
+  <div class="story-image"></div>
+  <div class="story-copy">
+    <p class="eyebrow">03 — LOOK CLOSER</p>
+    <h2>Culture lives in the details.</h2>
+    <p>Mulai dari bentuk atap, motif kain, rasa makanan, hingga gerakan tari—setiap detail membawa jejak sejarah dan identitas.</p>
+    <div class="numbers">
+      <div><strong>17K+</strong><span>pulau</span></div>
+      <div><strong>700+</strong><span>bahasa daerah</span></div>
+      <div><strong>∞</strong><span>cerita</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="quiz" class="quiz-section">
+  <div>
+    <p class="eyebrow">04 — MINI QUIZ</p>
+    <h2>How well do you know Indonesia?</h2>
+    <p>Uji pengetahuanmu dengan mini quiz singkat.</p>
+  </div>
+  <div class="quiz-card" id="quizCard"></div>
+</section>
+</main>
+
+<footer>
+  <div>
+    <a class="logo" href="#">Nusa<span>Explore</span></a>
+    <p>Explore Indonesia, one story at a time.</p>
+  </div>
+  <p>Demo project · HTML CSS JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
